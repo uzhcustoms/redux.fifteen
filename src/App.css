@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.field {
+  width: 400px;
+  height: 400px;
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  margin: auto;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.cell {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 50px;
+  transition: all 0.3s;
+  border: 1px solid rgb(80, 80, 80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
